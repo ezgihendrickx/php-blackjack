@@ -29,7 +29,7 @@ Setting the property as public is ALWAYS considered a very bad idea because you 
 
 ## Tips :wrench:
 
-+ Be sure to check the pre made classes and the example.php file. This file shows how you can easily get some graphical presentation for the cards to spice up your game!
++ Be sure to check the pre made classes and the [example.php file.] This file shows how you can easily get some graphical presentation for the cards to spice up your game!
 
 ## Author :black_nib:
 :star: Powered by Ezgi
