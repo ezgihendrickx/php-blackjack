@@ -13,7 +13,7 @@ This is the repository for the exercise: https://github.com/becodeorg/gnt-yu-3-2
 
 ## The Mission
 
-Let's make a game in PHP: Blackjack! To keep the code structured we are going to use classes and objects.
+Let's make a game in <code> PHP </code> : Blackjack! To keep the code structured we are going to use classes and objects.
 
 ## Getters
 
