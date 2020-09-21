@@ -18,11 +18,12 @@ Let's make a game in PHP: Blackjack! To keep the code structured we are going to
 ## Getters
 
 You will see you will create a lot of functions that start with "get" to access a property in a class. Why not just make the property public?
+
 This kind of function is called a Getter and it encapsulates the fields of a class by making them accessible only through its public methods and keep the values themselves private.
 
 Setting the property as public is ALWAYS considered a very bad idea because you will lose all control of which value is entered there. Any validation that was provided in your getter function could be avoided if you make the property public.
 
-TL;DR: Never use public properties, make getters!
+##### TL;DR: Never use public properties, make getters!
 
 ---
 
