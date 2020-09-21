@@ -29,7 +29,7 @@ You will see you will create a lot of functions that start with "get" to access 
 
 ## Tips :wrench:
 
-+ Be sure to check the pre made classes and the [example.php file.] This file shows how you can easily get some graphical presentation for the cards to spice up your game!
++ Be sure to check the pre made classes and the [example.php file.](https://github.com/becodeorg/gnt-yu-3-21/blob/master/3.The-Mountain/4.OOP-blackjack/code/example.php) This file shows how you can easily get some graphical presentation for the cards to spice up your game!
 
 ## Author :black_nib:
 :star: Powered by Ezgi
