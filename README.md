@@ -23,7 +23,7 @@ This kind of function is called a Getter and it encapsulates the fields of a cla
 
 Setting the property as public is ALWAYS considered a very bad idea because you will lose all control of which value is entered there. Any validation that was provided in your getter function could be avoided if you make the property public.
 
-##### TL;DR: Never use public properties, make getters!
+###### TL;DR: Never use public properties, make getters!
 
 ---
 
