@@ -1,20 +1,3 @@
-<?php
-
-declare(strict_types=1);
-require 'Suit.php';
-require 'Card.php';
-require 'Deck.php';
-require 'Blackjack.php';
-require 'Player.php';
-//Globals 
-$playerStatus = '';
-$dealerStatus = '';
-// start reset the game
-if (isset($_POST['play'])) {
-    unset($blackjack);
-    session_unset();
-};
-?>
 <!doctype html>
 <html lang="en">
 
@@ -37,16 +20,11 @@ if (isset($_POST['play'])) {
         <div class="content col-4">
             <h2><code>Player</code></h2>
             <?php
-
-            // instantiate the game
-
-            // if (isset($_SESSION['blackjack'])) {
+            //                $deck = new Deck();
+            //                $deck->shuffle();
+            //                $player = new Player($deck);
+            //                $dealer = new Player($deck);
             $blackjack = new Blackjack();
-            //save the session
-            //     $_SESSION['blackjack'] = serialize($blackjack);
-            // } else {
-            //     $blackjack = unserialize(($_SESSION['blackjack']));
-            // }
             foreach ($blackjack->getPlayer()->getCards() as $card) {
                 echo "<span style='font-size:150px'>" . $card->getUnicodeCharacter(true) . "</span>";
             }

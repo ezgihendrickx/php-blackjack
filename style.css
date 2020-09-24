@@ -1,0 +1,24 @@
+body {
+  background-color: #69a380;
+  color: #e2e7f1;
+}
+#hit,
+#stand,
+#surrender {
+  width: 100px;
+  height: 30px;
+  text-align: center;
+  border-color: black;
+  border-width: 3px;
+  border-style: dashed;
+  font-family: monospace;
+  font-size: large;
+  font-weight: 700;
+  margin: 5px;
+}
+img {
+  opacity: 60%;
+}
+form {
+  padding-bottom: 50px;
+}
