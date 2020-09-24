@@ -7,6 +7,7 @@ require 'Card.php';
 require 'Deck.php';
 require 'Blackjack.php';
 require 'Player.php';
+require 'index.php';
 
 
 $deck = new Deck();

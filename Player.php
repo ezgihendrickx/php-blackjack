@@ -22,26 +22,11 @@ declare(strict_types=1);
 //         $playerCard2 = $deck->drawCard();
 //         $this->cards = [$playerCard1, $playerCard2];
 //     }
-//     // Add a couple of empthy methods to this class
-//     public function Hit(): int
-//     {
-//         return $this->int;
-//     }
-//     public function Surrender(): int
-//     {
-//         return $this->int;
-//     }
-//     public function getScore(): int
-//     {
-//         return $this->int;
-//     }
-//     public function hasLost(): int
-//     {
-//         return $this->int;
-//     }
+//    
 // }
 class Player
 {
+
     private array $cards;
     private bool $lost = false;
 
@@ -54,5 +39,24 @@ class Player
         $playerCard1 = $deck->drawCard();
         $playerCard2 = $deck->drawCard();
         $this->cards = [$playerCard1, $playerCard2];
+    }
+    //Add a couple of empthy methods to this class
+    public function Hit(Deck $deck)
+    {
+        $deck->drawCard();
+        $this->cards = [];
+    }
+    public function Surrender()
+    {
+    }
+    public function getScore()
+    {
+    }
+    public function hasLost()
+    {
+    }
+    public function getCards(): array
+    {
+        return $this->cards;
     }
 }

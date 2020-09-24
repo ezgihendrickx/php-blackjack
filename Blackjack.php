@@ -4,15 +4,24 @@ declare(strict_types=1);
 //Add 3 private properties
 class Blackjack
 {
-    private $player;
+    private Player $player;
     private $dealer;
-    private $deck;
-    public function __construct($player, $dealer, $deck)
+    private Deck $deck;
+    //constructor for every start of a new game
+    public function __construct()
     {
+        //create a new deck of 52 cards
+        $this->deck = new Deck();
+        // shuffle the 52 cards
+        $this->deck->shuffle();
+        // create a new player
+        $this->player = new Player($this->deck);
+        // create a new dealer
+        $this->dealer = new Player($this->deck);
 
-        $this->player = $player;
-        $this->dealer = $dealer;
-        $this->deck = $deck;
+        // $this->player = $player;
+        // $this->dealer = $dealer;
+        // $this->deck = $deck;
     }
     // Add a couple of public methods to this class
 
